@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f3f3f3;
+}
+
+.header {
+  flex-grow: 1;
+}
+
+.header .navBar {
+  background-color: #1e272e;
+}
+
+.header .menuButton {
+  margin-right: "20";
+}
+
+.header .title {
+  flex-grow: 1;
+}
+
+.header .avatar {
+  color: "#121212";
+  width: 50;
+  height: 50;
+  margin-left: 20px;
+}
